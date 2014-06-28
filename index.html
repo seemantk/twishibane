@@ -1,20 +1,175 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
 
-<div class="home">
+<head>
+  <meta charset="utf-8">
 
-  <h1>Posts</h1>
+	<!-- Force Internet Explorer into Edge mode to use some CSS3/HTML5 things -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+	<meta name="google-site-verification" content="vzsLZpDgyzhnzUgWM38wu55Ooz31iPc2K8Y2kXkIBwM" />
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-</div>
+  <meta name="author" content="Seemant Kulleen">
+  <meta name="description" content="Conversations with Zambia's happen-makers in entrepreneurship, technology and education.">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+	<!-- FontAwesome css-->
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Custom Google Web Font -->
+	<link href="http://fonts.googleapis.com/css?family=Fauna+One&amp;text=Twishibane" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+
+	<!--[if lt IE 9]>         <html class="ie8"> <![endif]-->
+
+	<!-- Custom Twishibane Font and stylesheet -->
+	<link href="css/twishibane.css" rel="stylesheet">
+	<link href="css/twishiglyphs.css" rel="stylesheet">
+
+  <title>Twishibane</title>
+</head>
+
+
+<body>
+
+  <div class="main-content">
+    <div class="container">
+      <div class="row">
+				<div class="col-sm-8 col-sm-offset-2">
+ 					<div class="page-header">
+						<ul class="list-inline">
+							<li>
+								<ul class="list-inline icon-button-array">
+									<li>
+										<a class="microphone icon-button" href="#" title="Are all glowing things clickable?">
+											<i class="fa fa-microphone fa-5x blurry btn-blurry"></i>
+											<span class="sr-only">(microphone)</span>
+										</a>
+									</li>
+								</ul><!--/.icon-button-array-->
+							</li>
+							<li><h1><span class="sub">Twishibane</span></h1></li>
+						</ul>
+					</div><!--/.page-heaer-->
+
+          <div class="intro-message">
+						<h2>
+							<span class="super">[</span><span class="sub blurry">twi-she-bah-neh</span> <span class="super">pod-kast</span><span class="sub blurry">]</span>
+						</h2>
+						<h2>Perspectives on</h2>
+						<ul class="list-inline">
+							<li><h3><span class="blurry">Education</span></h3></li>
+							<li><h3><span class="super">Technology</span></h3></li>
+							<li><h3><span class="blurry">Entrepreneurship</span></h3></li>
+						</ul>
+
+						<ul class="list-inline">
+							<li><h3><span class="super">Zambia</span></h3></li>
+							<li>
+								<ul class="list-inline icon-button-array">
+									<li>
+										<a class="headphones icon-button" href="#" title="Do all clickable things glow?">
+											<i class="fa fa-headphones fa-5x sub blurry btn-blurry">
+											</i>
+											<span class="sr-only">(headphones)</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div><!-- /.intro-message -->
+
+					<div class="social-update">
+						<hr class="intro-divider">
+						<h2 class="section-heading">
+							<span class="blurry"><span>[</span>Episode 1<span class="blurry"><span class="sub">:</span></span></span><i class="fa fa-list-ol"></i><i class="fa fa-cut"></i><span class="sub blurry">]</span>
+						</h2>
+          	<ul class="list-inline icon-button-array">
+            	<li>
+								<a class="icon-button twitter" target="_blank" href="https://twitter.com/intent/user?screen_name=twishibane">
+									<i class="fa fa-twitter fa-fw fa-5x"></i>
+									<span class="sr-only">Follow us on Twitter</span>
+								</a>
+							</li>
+							<li>
+								<a class="icon-button google-plus" target="_blank" href="https://www.google.com/+Twishibane1">
+									<i class="fa fa-google-plus fa-fw fa-5x"></i>
+									<span class="sr-only">Follow us on Google Plus</span>
+								</a>
+							</li>
+            	<li>
+								<a class="icon-button facebook" target="_blank" href="https://facebook.com/twishibane">
+									<i class="fa fa-facebook fa-fw fa-5x"></i>
+									<span class="sr-only">Follow/Like us on Facebook</span>
+								</a>
+							</li>
+							<li>
+								<a class="icon-button newsletter" target="_blank" href="http://eepurl.com/MGA5z">
+									<i class="fa fa-envelope fa-fw fa-5x"></i>
+									<span class="sr-only">Email Newsletter</span>
+								</a>
+							</li>
+          	</ul>
+        	</div><!-- /.social-update -->
+      	</div>
+    	</div>
+  	</div>
+  	<!-- /.container -->
+
+  	<div class="page-footer">
+   		<div class="container">
+      	<hr class="intro-divider">
+				<h2 class="section-heading">
+					<span class="blurry">[</span><span class="sub">Thanks</span><span class="blurry super">&amp;</span><span class="sub">Friends</span><span class="blurry">]</span>
+				</h2>
+				<ul class="list-inline icon-button-array">
+					<li>
+						<a href="http://bongohive.com"  class="bongohive icon-button" target="_blank" title="BongoHive">
+							<i class="icon-bongohive logo"></i>
+						</a>
+					</li>
+					<li>
+						<a href="http://asikananetwork.org/" class="icon-button asikana" target="_blank" title="Asikana Network">
+							<i class="icon-asikana logo"></i>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.startupjunction.net/" class="icon-button startup-junction" target="_blank" title="Startup Junction">
+							<i class="icon-startupjunction logo"></i>
+						</a>
+					</li>
+				</ul>
+
+
+  			<div class="row">
+    			<div class="col-sm-12">
+      			<p class="copyright text-muted small">
+							&copy;2014 <span class="twishibane">Twishibane</span>. All Rights Reserved
+						</p>
+    			</div>
+  			</div><!--/.row-->
+			</div>
+		</div>
+	</div><!-- /.main-content -->
+
+  <!-- JavaScript -->
+	<script type="text/javascript" src="//platform.twitter.com/widgets.js" async></script>
+	<!--
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" defer></script>
+  <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js" defer></script>
+	-->
+	<!-- Analytics -->
+	<script>
+  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  	ga('create', 'UA-47547950-1', 'twishibane.com');
+  	ga('send', 'pageview');
+
+	</script>
+</body>
+</html>

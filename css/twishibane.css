@@ -1,0 +1,332 @@
+body, html {
+	height: 100%;
+	width: 100%;
+	background: url(../images/sofa2-md_mini.jpg) no-repeat center center fixed;
+	background-size: cover;
+	background-color: #284275;
+}
+
+body, h2, h3, h4, h5, h6 {
+	font-family: "Droid Serif", serif;
+	font-weight: 400;
+}
+
+
+h1 {
+	font-family: "Fauna One", serif;
+	margin: 0;
+	font-size: 5em;
+}
+
+h3 {
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+i {
+	color: white;
+}
+
+@media (max-width: 767px) {
+	.intro-message {
+		padding-bottom: 15%;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	h2 {
+		font-size: 2.3em;
+	}
+
+	.intro-divider {
+		width: 100%;
+	}
+}
+
+.page-header {
+	border-bottom: 0;
+	padding-bottom: 0;
+	margin: 40px 0 0 0;
+}
+
+.page-header .ul {
+	margin-bottom: 0;
+}
+
+.intro-divider {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.section-heading {
+	margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+	border-top: 3px solid #e7e7e7;
+	width: 200px;
+	float: left;
+}
+
+
+.twishibane {
+	font-family: "Fauna One", serif;
+	font-weight: 400;
+}
+
+.logo {
+	font-size: 5em;
+}
+
+.super {
+	vertical-align: super;
+}
+
+.sub {
+	vertical-align: sub;
+}
+
+.blurry {
+	color: transparent;
+	text-shadow: 0 0 3px rgba(255, 255, 255, 0.6);
+}
+
+.ie8 .blurry {
+	color: white;
+}
+
+.btn-blurry {
+	color: transparent;
+	text-shadow: 0 0 7px #fff, 0 0 3px rgba(255, 255, 255, 0.4);
+}
+
+i.ie8 .btn-blurry {
+	color: white;
+}
+
+.main-content {
+	color: #f8f8f8;
+	text-align: center;
+}
+
+.intro-message {
+	position: relative;
+}
+
+/* Buttons */
+.icon-button-array {
+ 	color: white;
+ 	text-shadow: none;
+	list-style: none;
+	text-align: center;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.icon-button-array:hover {
+	color: transparent;
+	text-shadow: 0 0 5px rgba(255,255,255,0.99);
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.icon-button-array li {
+	position: relative;
+	display: inline-block;
+	margin-right: 4px;
+}
+
+.icon-button-array a {
+	display: block;
+	margin: 10px;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	text-align: center;
+	line-height: 100px;
+	border-radius: 50%;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.icon-button i {
+	vertical-align: middle !important;
+	text-shadow: 0 0 10px #fff;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.icon-button:hover {
+	text-decoration: none;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.icon-button:hover i {
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.microphone:hover {
+	box-shadow: 0 3px 8px #000, inset 0 2px 3px red;
+}
+
+.microphone:hover i {
+	font-size: 4.8em;
+	text-shadow: 0 0 3px #fff, 0 0 10px rgba(255, 0, 0, 0.4);
+}
+
+.headphones:hover {
+	box-shadow: 0 3px 8px #000, inset 0 2px 3px green;
+}
+
+.headphones:hover i {
+	text-shadow: 0 0 3px #fff, 0 0 10px rgba(0, 255, 0, 0.4);
+	font-size: 4.8em;
+}
+
+/* Social button array */
+.twitter:hover {
+	box-shadow: 0 3px 8px #000, inset 0 2px 3px #55acee;
+}
+
+.twitter:hover i {
+	text-shadow: 0 0 10px #55acee;
+}
+
+.twitter:active {
+	box-shadow: 0 3px 8px #55acee, inset 0 2px 3px #000;
+}
+
+.twitter:active i {
+	text-shadow: 0 0 10px white;
+	color: #55acee;
+}
+
+.google-plus:hover {
+	box-shadow: 0 3px 8px #000, inset 0 2px 3px #dd4b39;
+}
+
+.google-plus:hover i {
+	text-shadow: 0 0 10px #dd4b39;
+}
+
+.google-plus:active {
+	box-shadow: 0 3px 8px #dd4b39, inset 0 2px 3px #000;
+}
+
+.google-plus:active i {
+	text-shadow: 0 0 10px white;
+	color: #dd4b39;
+}
+
+.facebook:hover {
+	box-shadow: 0 3px 8px #000, inset 0 2px 3px #3b5998;
+}
+
+.facebook:hover i {
+	text-shadow: 0 0 10px #3b5998;
+}
+
+.facebook:active {
+	box-shadow: 0 3px 8px #3b5998, inset 0 2px 3px #000;
+}
+
+.facebook:active i {
+	text-shadow: 0 0 10px white;
+	color: #3b5998;
+}
+
+.newsletter:hover {
+	box-shadow: 0 3px 8px #000, inset 0 2px 3px orangered;
+}
+
+.newsletter:hover i {
+	text-shadow: 0 0 10px orangered;
+}
+
+.newsletter:active {
+	box-shadow: 0 3px 8px orangered, inset 0 2px 3px #000;
+}
+
+.newsletter:active i {
+	text-shadow: 0 0 10px white;
+	color: orangered;
+}
+
+/* Partner Buttons */
+
+.bongohive:hover {
+	box-shadow: 0 3px 8px #000, inset 0 2px 3px #fecb00;
+}
+
+.bongohive:hover i {
+	text-shadow: 0 0 10px #fecb00;
+}
+
+.bongohive:active {
+	box-shadow: 0 3px 8px #fecb00, inset 0 2px 3px #000;
+}
+
+.bongohive:active i {
+	text-shadow: 0 0 10px #fecb00;
+	color: #000;
+}
+
+.asikana:hover {
+	box-shadow: 0 3px 8px #000, inset 0 2px 3px #f8acae;
+}
+
+.asikana:hover i {
+	text-shadow: 0 0 10px #f58821;
+}
+
+.asikana:active {
+	box-shadow: 0 3px 8px #f8acae, inset 0 2px 3px #000;
+}
+
+.asikana:active i {
+	text-shadow: 0 0 10px #f58821;/* 7670b4 */
+	color: #000;
+}
+
+.startup-junction:hover {
+	box-shadow: 0 3px 8px #000, inset 0 2px 3px #ff8d2d;
+}
+
+.startup-junction:hover i {
+	text-shadow: 0 0 10px #ff8d2d;
+}
+
+.startup-junction:active {
+	box-shadow: 0 3px 8px #ff8d2d, inset 0 2px 3px #000;
+}
+
+.startup-junction:active i {
+	text-shadow: 0 0 10px #000;
+	color: #ff8d2d;
+}
+
+.copyright {
+	margin: 15px 0 0;
+}
